@@ -13,8 +13,38 @@ package.json
 },
 ```
 
+`$ npm run lint`
+
+### Unit test (單元測試)
+> 用來測試 function 回傳的資料是否和預期的相同
+
+`npm install --save-dev enzyme enzyme-adapter-react-16 enzyme-to-json @types/jest`  
+
+package.json
+```
+"scripts": {
+    "unit": "react-scripts test --coverage --env=jsdom"
+},
+"jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/__tests__/**/*",
+      "!src/(App|index|setupTests).js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ]
+  },
+```
+
+`$ npm run unit`
 
 ### References
 
 [standard](https://www.npmjs.com/package/standard)  
-[snazzy](https://www.npmjs.com/package/snazzy)  
+[snazzy](https://www.npmjs.com/package/snazzy)    
+[Enzyme](https://www.npmjs.com/package/enzyme)  

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AppHeader from './Component/Common/AppHeader'
 import logo from './logo.svg'
 import './App.css'
 
@@ -6,6 +7,10 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
+          <AppHeader
+            name='Test App'
+            link='#'
+          />
         <header className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
           <p>
