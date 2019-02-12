@@ -43,8 +43,28 @@ package.json
 
 `$ npm run unit`
 
+### Deploy gh-pages
+
+`$ npm install gh-pages --save-dev`  
+
+package.json
+```
+//...
+"homepage": "https://jacobhsu.github.io/ci-gh-pages"
+
+"scripts": {
+  //...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+`$ npm run deploy`
+
 ### References
 
 [standard](https://www.npmjs.com/package/standard)  
 [snazzy](https://www.npmjs.com/package/snazzy)    
 [Enzyme](https://www.npmjs.com/package/enzyme)  
+[gh-pages](https://www.npmjs.com/package/gh-pages)  
+[react-gh-pages](https://github.com/gitname/react-gh-pages)  
