@@ -19,6 +19,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"  
   },
+  "standard": {
+    "globals": [ "describe", "it", "expect" ]
+  },
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"

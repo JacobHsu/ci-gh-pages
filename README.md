@@ -75,6 +75,7 @@ script:
 ### References
 
 [standard](https://www.npmjs.com/package/standard)  
+[JavaScript Standard Style](https://standardjs.com/readme-zhtw.html)  
 [snazzy](https://www.npmjs.com/package/snazzy)    
 [Enzyme](https://www.npmjs.com/package/enzyme)  
 [gh-pages](https://www.npmjs.com/package/gh-pages)  
