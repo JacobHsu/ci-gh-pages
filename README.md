@@ -1,4 +1,10 @@
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)  
+[![Build Status](https://travis-ci.org/JacobHsu/ci-gh-pages.svg?branch=master)](https://travis-ci.org/JacobHsu/ci-gh-pages)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Coverage Status][codecov-image]][codecov-url]
+
+[codecov-image]: https://img.shields.io/codecov/c/github/JacobHsu/ci-gh-pages.svg
+[codecov-url]: https://codecov.io/gh/JacobHsu/ci-gh-pages
+
 
 # ci-gh-pages
 
@@ -99,3 +105,4 @@ script:
 
 [StandardJS badge](https://standardjs.com/#is-there-a-readme-badge)  
 [coverage badge](https://codecov.io/gh)  
+[Travis CI 和 Codecov](https://segmentfault.com/a/1190000004415437)  
