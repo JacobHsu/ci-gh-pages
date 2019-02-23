@@ -17,10 +17,14 @@
     "lint": "standard --fix | snazzy",
     "unit": "react-scripts test --coverage --env=jsdom",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"  
+    "deploy": "gh-pages -d build"
   },
   "standard": {
-    "globals": [ "describe", "it", "expect" ]
+    "globals": [
+      "describe",
+      "it",
+      "expect"
+    ]
   },
   "jest": {
     "snapshotSerializers": [
@@ -47,6 +51,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^24.0.0",
+    "codecov": "^3.2.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "enzyme-to-json": "^3.3.5",
